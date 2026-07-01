@@ -12,6 +12,22 @@ This policy explains what Wink Music does and does not do with your data. The sh
 By downloading or using Wink Music, you agree to this policy. If you do not agree, please do not use the app.
 
 ---
+## Face Data and TrueDepth API
+
+Wink uses Apple's ARKit ARFaceTrackingConfiguration on the front-facing TrueDepth camera to detect eye winks.
+
+**What is collected.** For each camera frame, Wink reads two numeric blend-shape values from ARKit: one representing how closed the left eye is and one representing how closed the right eye is. Each value is a floating-point number between 0.0 and 1.0. No image of your face, no video, no audio, and no depth map is retained.
+
+**Why it is collected.** These two values are used only to determine when you have winked one eye. A wink triggers a page turn in your sheet music. The values are processed frame by frame and are discarded immediately after the current frame is evaluated. Nothing is stored to disk.
+
+**How it is stored.** The values live only in memory during a single frame of face tracking, then are overwritten by the next frame. Nothing is written to a file, database, log, or cache. Nothing is retained after the app closes or the piece is dismissed.
+
+**Where it is sent.** Nowhere. Wink does not use the internet at all. Face data is never transmitted off the device. It is not shared with the developer, with Apple, or with any third party.
+
+**When face tracking is active.** Only while a piece of sheet music is open in the viewer, and only if you have granted camera permission. Face tracking pauses immediately when you close a piece, background the app, or turn off wink detection in the viewer menu. You can revoke camera permission at any time in iOS Settings, and Wink continues to work with manual arrows and swipe gestures.
+
+**No third parties.** Wink contains no analytics, no third-party SDKs, no ads, no crash reporting, no cloud sync, and no account system. There is no channel by which face data could reach a third party.
+---
 
 ## What data Wink Music accesses on your device
 
