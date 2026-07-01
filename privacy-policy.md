@@ -1,4 +1,4 @@
-# Privacy Policy — Wink Music
+# Privacy Policy for Wink Music
 
 **Effective date:** June 19, 2026
 **Developer:** Daniel Singh (individual developer)
@@ -7,11 +7,12 @@
 
 ## What this policy is
 
-This policy explains what Wink Music does and does not do with your data. The short version: Wink Music runs entirely on your device, never connects to the internet, and Daniel Singh never receives any information about you or your use of the app.
+This policy explains what Wink Music (referred to inside the app as "Wink") does and does not do with your data. The short version: Wink Music runs entirely on your device, never connects to the internet, and Daniel Singh never receives any information about you or your use of the app.
 
 By downloading or using Wink Music, you agree to this policy. If you do not agree, please do not use the app.
 
 ---
+
 ## Face Data and TrueDepth API
 
 Wink uses Apple's ARKit ARFaceTrackingConfiguration on the front-facing TrueDepth camera to detect eye winks.
@@ -27,6 +28,7 @@ Wink uses Apple's ARKit ARFaceTrackingConfiguration on the front-facing TrueDept
 **When face tracking is active.** Only while a piece of sheet music is open in the viewer, and only if you have granted camera permission. Face tracking pauses immediately when you close a piece, background the app, or turn off wink detection in the viewer menu. You can revoke camera permission at any time in iOS Settings, and Wink continues to work with manual arrows and swipe gestures.
 
 **No third parties.** Wink contains no analytics, no third-party SDKs, no ads, no crash reporting, no cloud sync, and no account system. There is no channel by which face data could reach a third party.
+
 ---
 
 ## What data Wink Music accesses on your device
@@ -71,7 +73,7 @@ Wink Music uses none. There are no analytics tools, no crash reporters, no adver
 
 ## Children's privacy
 
-Wink Music does not collect personal data from any user, regardless of age. It is suitable for all ages. Because no data is collected or transmitted, Wink Music has nothing to disclose under children's privacy laws including COPPA (United States) and PIPEDA (Canada).
+Wink Music does not collect personal data from any user, regardless of age. It is suitable for all ages. Because no data is collected or transmitted, Wink Music has nothing to disclose under laws that require it, including COPPA (United States) and general data-protection laws such as PIPEDA (Canada) and GDPR (European Union).
 
 ---
 
@@ -80,6 +82,8 @@ Wink Music does not collect personal data from any user, regardless of age. It i
 Because all data is stored locally on your device, you are in full control of it at all times. To remove everything Wink Music has stored, delete the app from your device. Deleting Wink Music permanently removes all imported sheet music, thumbnails, preferences, and calibration data. Nothing remains on any server because nothing was ever sent to one.
 
 You can revoke camera permission at any time in iOS Settings under Wink Music. The app continues to work as a manual sheet music reader with on-screen arrows and swipe gestures when wink detection is disabled.
+
+Because Wink Music collects no personal data, requests for access, correction, portability, or erasure of personal data will result in the same answer: there is nothing to access, correct, port, or erase. You may still write with any such request, and the response will confirm this.
 
 ---
 
@@ -129,7 +133,7 @@ This policy, together with Apple's App Store terms, is the entire agreement betw
 
 ## Contact
 
-For privacy-related questions, contact Daniel Singh through the Wink Music listing on the App Store.
+For privacy-related questions, contact Daniel Singh at ltriomino@gmail.com.
 
 ---
 
